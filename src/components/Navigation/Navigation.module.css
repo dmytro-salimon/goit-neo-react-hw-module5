@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background-color: #1a1a1a;
+  width: 100%;
+  position: fixed; /* Фіксуємо навігацію вгорі */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.link {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+.link.active {
+  color: #747bff;
+}
